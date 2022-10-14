@@ -15,6 +15,6 @@ It also has an the option to search by author, this will proivde:
 - Reviews on author
 - more series by author
 
-# Our goal is to put everything you want to know about your book in one easy place for you and anyone else to find.
+### Our goal is to put everything you want to know about your book in one easy place for you and anyone else to find.
 
 Bout-A-Book utilizes Goodreads.com api Goodreads has 10 million book reviews across 700,000 titles.
