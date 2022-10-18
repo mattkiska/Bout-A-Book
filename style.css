@@ -1,3 +1,38 @@
 body {
-    background-color: darkslateblue;
+    background-image: url('https://media.istockphoto.com/photos/row-of-old-books-with-colorful-covers-on-pastel-blue-background-up-picture-id1126130554?k=20&m=1126130554&s=170667a&w=0&h=Cd53gRKlpQ4WrNSZhrSQM4WO88u0czDoz8ZP7Fwk-kQ=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#search {
+    display: flex;
+    justify-content: center;
+}
+#booksearch {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 20%;
+}
+#authorsearch {
+    display: flex;
+    justify-content: space-evenly;
+}
+#searchBox {
+    font-size: 22px;
+}
+#searchButton {
+    font-size: 22px;
+    background-color: darkblue;
+    color: white;
+    font-weight: lighter;
+}
+#information {
+    visibility: hidden;
+}
+ul {
+    list-style: none;
 }
