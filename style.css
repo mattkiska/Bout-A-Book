@@ -1,21 +1,29 @@
 body {
-    background-image: url('https://media.istockphoto.com/photos/row-of-old-books-with-colorful-covers-on-pastel-blue-background-up-picture-id1126130554?k=20&m=1126130554&s=170667a&w=0&h=Cd53gRKlpQ4WrNSZhrSQM4WO88u0czDoz8ZP7Fwk-kQ=');
+    background-image: url('https://wallpapercave.com/wp/wp7713574.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 h1 {
     text-align: center;
     font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: American Typewriter, serif;
+}
+h1 {
+    font-style: italic;
+    font-weight: 400;
+    border: 2px solid brown;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(222, 184,135, .6);
 }
 #search {
     display: flex;
     justify-content: center;
+
 }
 #booksearch {
     display: flex;
     justify-content: space-evenly;
-    padding-right: 20%;
 }
 #authorsearch {
     display: flex;
@@ -23,16 +31,43 @@ h1 {
 }
 #searchBox {
     font-size: 22px;
+    background-color: #FFC46F;
+    color: black;
+    border: 2px solid black;
 }
 #searchButton {
     font-size: 22px;
-    background-color: darkblue;
+    background-color: #633C03;
     color: white;
     font-weight: lighter;
 }
-#information {
-    visibility: hidden;
+#book {
+    background-color: rgba(222, 184,135, .6);
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid brown;
+    border-radius: 10%;
+    opacity: 0%;
 }
 ul {
     list-style: none;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#footerlinks {
+    margin-right: 20px;
+    margin-left: 20px;
 }
