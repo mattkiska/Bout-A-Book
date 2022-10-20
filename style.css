@@ -35,6 +35,7 @@ h1 {
     color: black;
     border: 2px solid black;
     cursor: text;
+    width: 300px;
 }
 #searchButton {
     font-size: 22px;
@@ -42,6 +43,11 @@ h1 {
     color: white;
     font-weight: lighter;
     cursor: pointer;
+    width: 150px;
+    margin-left: 15px;
+}
+#searchButton:hover {
+    background-color: black;
 }
 #book {
     background-color: rgba(222, 184,135, .6);

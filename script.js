@@ -37,3 +37,11 @@ fetch(`http://openlibrary.org/search.json?q=${bookSearch}`)
 }
 
 button.addEventListener('click', getData)
+// allows you to press enter/return when searching something rather than having to click search
+document.getElementById("searchBox")
+    .addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("searchButton").click();
+    }
+});
