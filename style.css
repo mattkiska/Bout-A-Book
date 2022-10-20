@@ -34,12 +34,14 @@ h1 {
     background-color: #FFC46F;
     color: black;
     border: 2px solid black;
+    cursor: text;
 }
 #searchButton {
     font-size: 22px;
     background-color: #633C03;
     color: white;
     font-weight: lighter;
+    cursor:pointer;
 }
 #book {
     background-color: rgba(222, 184,135, .6);
@@ -63,7 +65,7 @@ ul {
     flex-direction: row;
 }
 footer {
-    position: absolute;
+    position:absolute;
     bottom: 0;
     width: 100%;
 }
