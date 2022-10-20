@@ -10,7 +10,7 @@ async function getData(event){
     let bookSearch = document.querySelector("#searchBox").value.toLowerCase()
     let book = document.querySelector('#book')
    
-fetch(`http://openlibrary.org/search.json?q=${bookSearch}`)
+fetch(`https://openlibrary.org/search.json?q=${bookSearch}`)
     .then(res => {
         return res.json()
     })
@@ -18,7 +18,7 @@ fetch(`http://openlibrary.org/search.json?q=${bookSearch}`)
         book = document.querySelector('#book')
         book.style.opacity = 100
 
-            document.getElementById("information").innerHTML="<h2>"+res.docs[0].title+"</h2>"+"<br><img src='http://covers.openlibrary.org/b/isbn/"+res.docs[0].isbn[0]+"-M.jpg'><br>";
+            document.getElementById("information").innerHTML="<h2>"+res.docs[0].title+"</h2>"+"<br><img src='https://covers.openlibrary.org/b/isbn/"+res.docs[0].isbn[0]+"-M.jpg'><br>";
         
             document.getElementById("author").innerHTML="<h3>" + 'Author: ' +res.docs[0].author_name[0]
         
@@ -29,6 +29,8 @@ fetch(`http://openlibrary.org/search.json?q=${bookSearch}`)
             document.getElementById("firstYear").innerHTML="<h3>" + 'Published in ' +res.docs[0].first_publish_year
         
             document.getElementById("pageCount").innerHTML="<h3>"+res.docs[0].number_of_pages_median + ' pages'
+            
+            document.getElementById("readmore").innerHTML="<h3>"+`<a href=https://openlibrary.org/search?q=${bookSearch}>Click here to find out more on Openlibrary.com</a>`
         
     })
 

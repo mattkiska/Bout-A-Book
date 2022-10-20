@@ -8,8 +8,6 @@ h1 {
     font-size: 50px;
     font-family: 'Caveat', cursive;
     font-weight: bolder;
-}
-h1 {
     font-weight: 400;
     border: 2px solid brown;
     margin-left: 35%;
@@ -19,13 +17,8 @@ h1 {
 #search {
     display: flex;
     justify-content: center;
-
 }
 #booksearch {
-    display: flex;
-    justify-content: space-evenly;
-}
-#authorsearch {
     display: flex;
     justify-content: space-evenly;
 }
@@ -36,6 +29,7 @@ h1 {
     border: 2px solid black;
     cursor: text;
     width: 300px;
+    font-family: 'Caveat', cursive;
 }
 #searchButton {
     font-size: 22px;
@@ -45,6 +39,7 @@ h1 {
     cursor: pointer;
     width: 150px;
     margin-left: 15px;
+    font-family: 'Caveat', cursive;
 }
 #searchButton:hover {
     background-color: black;
@@ -71,13 +66,13 @@ ul {
     flex-direction: row;
 }
 footer {
-    position:absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
 #footerlinks {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     cursor: pointer;
     z-index: 2;
 }
