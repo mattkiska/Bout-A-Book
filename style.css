@@ -6,14 +6,14 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
-    font-family: American Typewriter, serif;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
 }
 h1 {
-    font-style: italic;
     font-weight: 400;
     border: 2px solid brown;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
     background-color: rgba(222, 184,135, .6);
 }
 #search {
@@ -41,7 +41,7 @@ h1 {
     background-color: #633C03;
     color: white;
     font-weight: lighter;
-    cursor:pointer;
+    cursor: pointer;
 }
 #book {
     background-color: rgba(222, 184,135, .6);
@@ -72,4 +72,6 @@ footer {
 #footerlinks {
     margin-right: 20px;
     margin-left: 20px;
+    cursor: pointer;
+    z-index: 2;
 }
