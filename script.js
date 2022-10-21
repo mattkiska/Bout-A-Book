@@ -35,7 +35,6 @@ fetch(`https://openlibrary.org/search.json?q=${bookSearch}`)
     })
 
 
- 
 }
 
 button.addEventListener('click', getData)
